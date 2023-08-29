@@ -6,7 +6,7 @@ takes list and return sum
 """
 
 
-def makemultiplier(multiplier: float) -> Callable[[float], float]:
+def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """
     sum list
     """

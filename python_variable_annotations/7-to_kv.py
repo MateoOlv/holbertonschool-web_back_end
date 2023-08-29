@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """imports"""
-from typing import List, Union, Tuple
+from typing import Union, Tuple
 """
 takes list and return sum
 """
