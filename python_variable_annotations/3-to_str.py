@@ -4,7 +4,7 @@ float to string
 """
 
 
-def add(n: float) -> str:
+def to_str(n: float) -> str:
     """
     convert float as string
     """

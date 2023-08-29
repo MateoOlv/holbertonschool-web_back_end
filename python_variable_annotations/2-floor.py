@@ -4,5 +4,5 @@ import math
 
 
 """Get n value an use math to get the floor"""
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     return (math.floor(n))
