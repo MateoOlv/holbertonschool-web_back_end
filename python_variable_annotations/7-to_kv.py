@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """imports"""
-from typing import List, Union
+from typing import List, Union, Tuple
 """
 takes list and return sum
 """
 
 
-def to_kv(mxd_lst: List[Union[int, float]]):
+def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]::
     """
     sum list
     """
-    return (sum(mxd_lst))
+    return (k, v * v)
