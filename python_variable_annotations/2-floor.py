@@ -1,3 +1,8 @@
 #!/usr/bin/env python3
-def floor(n:float) -> float:
-    
+"""Imports"""
+import math
+
+
+"""Get n value an use math to get the floor"""
+def floor(n: float) -> float:
+    return (math.floor(n))
