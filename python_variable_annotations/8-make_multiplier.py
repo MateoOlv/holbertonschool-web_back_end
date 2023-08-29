@@ -11,8 +11,8 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
     sum list
     """
     def mfunction(n: float) -> float:
-    """
-    comment
-    """
+        """
+        comment
+        """
         return n * multiplier
     return mfunction
