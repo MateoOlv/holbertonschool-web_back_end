@@ -6,7 +6,7 @@ takes list and return sum
 """
 
 
-def sum_mixed_list(k: string, ):
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     """
     sum list
     """
