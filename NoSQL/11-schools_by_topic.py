@@ -10,5 +10,5 @@ def schools_by_topic(mongo_collection, topic):
     query: dict = {'topic': topic}
     schools: list = []
     for school in mongo_collection.find(query):
-        school.append(school)
-    return school
+        schools.append(school)
+    return schools
