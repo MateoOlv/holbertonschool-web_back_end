@@ -1,0 +1,6 @@
+//comentario task 4
+db.school.find(
+    {
+        name : "Holberton school"
+    }
+)
