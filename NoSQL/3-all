@@ -1,0 +1,5 @@
+//comentario task 2
+db.school.find(
+    {
+    }
+)
