@@ -1,0 +1,4 @@
+//comentario task 4
+db.school.deleteMany(
+    {name="Holberton school"}
+)
