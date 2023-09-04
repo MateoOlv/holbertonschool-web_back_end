@@ -1,7 +1,6 @@
 //comentario task 2
-use $1
-db.school.insertOne(
+db.school.insert(
     {
-        name: "Holberton school"
+        name : "Holberton school"
     }
 )
