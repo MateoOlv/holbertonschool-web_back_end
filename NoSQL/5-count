@@ -1,5 +1,9 @@
 //comentario task 4
-db.school.count(
+db.school.update(
     {
+        name="Holberton school"
+    },
+    {
+        $set: {adress="972 Mission street"}
     }
 )
