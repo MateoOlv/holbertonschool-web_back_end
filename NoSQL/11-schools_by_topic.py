@@ -7,7 +7,7 @@ comentario
 def schools_by_topic(mongo_collection, topic):
     """Function"""
 
-    query: dict = {'topic': topic}
+    query: dict = {"topics": topic}
     schools: list = []
     for school in mongo_collection.find(query):
         schools.append(school)
